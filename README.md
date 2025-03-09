@@ -7,5 +7,5 @@ INSTALLATION:
 1. Download the files
 2. Turn on developer mode in Chrome's extensions
 3. "Load Unpacked" extension
-4. Select the folder with this project in it. 
+4. Select the folder or zip file with this project in it. 
 5. Right-click on webpages or highlight text and right-click it and select "Post... to pinboard"

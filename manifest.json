@@ -1,0 +1,22 @@
+{
+  "name": "Pinboard Quick Save",
+  "description": "Quickly save links to Pinboard.in with a right-click.",
+  "version": "1.7.0",
+  "manifest_version": 3,
+  "icons": {
+  "16": "pin-16x16.png",
+  "48": "pin-48x48.png",
+  "128": "pin-128x128.png"
+  },
+  "permissions": [
+    "contextMenus",
+    "scripting",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://pinboard.in/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
